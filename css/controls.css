@@ -1,0 +1,22 @@
+.buttom {border: 1px solid black;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: lightgray;
+    font-weight:bold ;
+
+}
+.buttom :hover{
+  background-color: transparent;
+}
+.button {border: 1px solid yellow;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    font-weight: bold;
+
+}
+.button :hover{
+  background-color: white;
+}
