@@ -1,0 +1,41 @@
+.div__chapters {
+    background-image: url(../img/background-chapter-list.webp);
+}
+.chapter__title {
+    padding-top: 0;
+    padding-bottom: 85px;
+    text-align: center;
+}
+.h2__chapter_list {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: 900;
+    font-weight: bold;
+    color: rgb(45, 53, 61);
+
+}
+.p__list_description {
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgb(131, 133, 136);
+}
+.chapter__blocks {
+    box-sizing: border-box;
+}
+.chapter__1, .chapter__2, .chapter__3, .chapter__4, .chapter__5, .chapter__6 {
+    background-color: rgb(255, 247, 208);
+    text-align: left;
+}
+.h3__chapter_1, .h3__chapter_2, .h3__chapter_3, .h3__chapter_4, .h3__chapter_5, .h3__chapter_6 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    line-height: 36px;
+}
+.p__chapter_1_data, .p__chapter_2_data, .p__chapter_3_data, .p__chapter_4_data, .p__chapter_5_data, .p__chapter_6_data {
+    font-family: 'Mukta', sans-serif;
+    font-size: 19px;
+    line-height: 28.5px;
+    color: rgb(131, 133, 136);
+}

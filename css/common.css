@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Playfair+Display&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+}
+:root {
+    --accent-color: rgb(57, 66, 74);
+    --background-color: #2D353D;
 }
