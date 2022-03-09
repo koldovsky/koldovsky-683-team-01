@@ -20,3 +20,21 @@
 .button :hover{
   background-color: white;
 }
+
+.header {
+  background-color: rgb(57, 66, 74);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+}
+
+.header__rebecca_johansen {
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
