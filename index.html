@@ -13,15 +13,21 @@
 <body>
     <!--Serhii block start -->
     <header class="header">
-        <div class="header__rebecca_johansen">
-            <h1>Rebecca Johansen</h1>
-        </div>
-        <nav class="nav__site">
-            <a href="#about">About</a>
-            <a href="#div__chapters">Chapter List</a>
-            <a href="#main__buttom">Author</a>
-            <a href="#what__readers_are_saying">Reviews</a>
-            <a href="#buy__a_book_today">By book</a>
+        <nav class="header__nav">
+            <div class="container">
+                <div class="header__rebecca_johansen">
+                    <h1>Rebecca Johansen</h1>
+                </div>
+                    <label class="burger_icon" for="burger_checkbox">☰</label>
+                    <input type="checkbox" id="burger_checkbox">
+                        <div class="header__nav_menu">
+                            <a href="#about">About</a>
+                            <a href="#div__chapters">Chapter List</a>
+                            <a href="#main__buttom">Author</a>
+                            <a href="#what__readers_are_saying">Reviews</a>
+                            <a href="#buy__a_book_today">By book</a>
+                        </div>
+            </div>        
         </nav>
     </header>
     <!--Content-->
@@ -81,7 +87,7 @@
                 <img src="img/baker-taylor.png" alt="Baker Taylor" class="img__baker_taylor">
             </div>
         </section>
-        <div class="div__chapters">
+        <div id="div__chapters" class="div__chapters">
             <div class="chapter__title">
                 <h2 class="h2__chapter_list">Full Chapter List</h2>
                 <hr class="chapter_line_1">
