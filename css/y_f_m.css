@@ -1,0 +1,15 @@
+.your__forgotten_minutes {
+  display: flex;
+  justify-content: space-between;
+}
+.text__your_forgotten_minutes {
+    background-color: var(--accent-color);
+    justify-content: center;
+}
+.img-book-cover {
+    border-radius: inherit;
+    object-fit: cover;
+    object-position: 50% 50%;
+
+
+}

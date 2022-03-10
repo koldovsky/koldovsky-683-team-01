@@ -1,38 +1,27 @@
 .header {
   background-color: var(--accent-color);
-  
   font-family: Playfair Display,serif;
-  }
-
-  .header__nav {
-    padding: 30px 85px; 
-  }
-  h1 {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    color: #fff;
-    }
-
-@media (min-width: 600px) {
-  .header__nav .container {
-    display: flex;
-  }
-  .header__nav_menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex: 1;
-         }
-a {
-  color: #fff;
-}
-}
-.header__nav_menu {
   display: flex;
-  flex-direction: column;
-  width: 35%;
-}
-.header__nav_menu_item {
-    text-decoration: none;
-    
+  justify-content: space-between;
+  min-width: 200px;
+      }
+
+.header__rebecca_johansen {
+  padding: 35px 35px;
   }
+h1 {
+  font-style: italic;
+  color: #fff;
+  font-size: 35px;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  }
+
+.header__nav_menu_item {
+  padding: 0px 20px;
+  font-size: 25px;
+  color: #fff;
+ 
+}
