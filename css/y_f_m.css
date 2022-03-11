@@ -2,12 +2,15 @@
 .your__forgotten_minutes {
   display: flex;
 }
+.section__about_the_book_text{
+  display: flex;
+  vertical-align: baseline;
 }
 .text__your_forgotten_minutes {
     background-color: #2d353d;
     color: #fff7d0;
     text-align: center;  
-    padding: 150px 30px;
+    padding: 50px 30px;
     
 }
 h2{
@@ -17,6 +20,9 @@ h2{
   padding: 0px 0px 20px;
   
 }
+
+}
+
 h2:before {
   content: "";
   position: absolute;
@@ -36,14 +42,65 @@ h2:after {
   bottom: -4px;
 }
 
-p{
-    margin-top: 80px;
+.main__h2_text {
+  margin-top: 80px;
   color:#838588;
   font-family: 'Montserrat', sans-serif;
   font-size: inherit;
-  
 }
+.button__your_forgotten_minutes {
+  padding: 40px 0px 0px;
+}
+.button__buy_now_yfm {
+  background-color: #fff7d0;
+  padding: 5px 5px;
+  color:#838588;
+  font-family: 'Montserrat', sans-serif;
+}
+.button__read_yfm {
+  background-color: rgb(252, 178, 20);
+  padding: 5px 5px;
+  color:#838588;
+  font-family: 'Montserrat', sans-serif;
+}
+
 img {
 display: block;
 width: 100%;
+}
+
+.compelling {
+  background: #2d353d;
+  color: #fff;
+  display: block;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  padding-left: 85px;
+  border-left: 1px;
+  
+  
+  }
+.main__compeling {
+  font-family: Playfair Display,serif;
+  font-style: italic;
+  font-size: bold;
+
+}
+.main_compeling_text {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 50px;
+}
+
+.section__about_the_book {
+  text-align: center;  
+  color: #2d353d;
+  display: block;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  padding-left: 85px;
+  border-left: 1px;
+
+}
+.section__about_the_book_text {
+
 }
