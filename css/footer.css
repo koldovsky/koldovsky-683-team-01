@@ -1,0 +1,12 @@
+.footer__menu_item {
+    display: block;
+    color: rgb(255, 255, 255)
+}
+
+.footer {
+ background-color: rgb(45, 53, 61);
+}
+
+.rights {
+    color: rgb(131, 133, 136);
+}

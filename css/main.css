@@ -44,3 +44,25 @@ height: 201.305px;
     text-align: center;
 
 }
+
+.container {
+    display: flex;
+    text-align: center;
+}
+
+.rock {
+    width: 392px;
+
+}
+
+.days {
+    width: 392px;
+}
+
+.survivor {
+    width:392px;
+}
+
+.tandem {
+    width: 392px;
+}
