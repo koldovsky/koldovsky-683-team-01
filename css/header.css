@@ -1,9 +1,10 @@
 .header {
-  background-color: var(--accent-color);
+  background-color: rgb(57, 66, 74);
   font-family: Playfair Display,serif;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
-  min-width: 200px;
       }
 
 .header__rebecca_johansen {
@@ -15,13 +16,22 @@ h1 {
   font-size: 35px;
 }
 .header__nav {
-  display: flex;
-  align-items: center;
+  display: block;
+  
   }
 
 .header__nav_menu_item {
-  padding: 0px 20px;
+  padding: 0px 10px;
   font-size: 25px;
   color: #fff;
- 
-}
+ }
+ .header__nav_menu_item-special {
+   background: rgb(252, 178, 20);
+   padding: 10px 10px;
+   font-size: 25px;
+   color:  rgb(57, 66, 74);
+ }
+
+ a {
+   text-decoration: none;
+ }
