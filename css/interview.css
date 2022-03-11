@@ -1,0 +1,46 @@
+.interview_part {
+    border-bottom-color: rgb(45, 53, 61);
+}
+
+.h3__interview_title {
+  font-size: 30px;
+  font-family: 'Playfair Display' serif;
+  color: rgb(45, 53, 61);
+  text-align: left;
+ line-height: 43.125px;
+ font-weight:bold;
+}
+
+.p__interview_text {
+    font-size: 19px;
+    font-family: 'Mukta Light' serif;
+    color: rgb(157, 159, 163);
+    text-align: left;
+    line-height: 28.5px;
+}
+
+.button-interview {border: 1px solid yellow
+    color:rgb(45, 53, 61)
+    padding: 14px 20px 20px 14px;
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    background-color: yellow;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.interview_rebecca {
+    width: 352px;
+height: 201.305px;
+   font-weight: 300;
+   font-size: 19px;
+   text-align: center;
+}
+
+.other_book__title {
+    font-family: Playfair Display; serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+
+}
