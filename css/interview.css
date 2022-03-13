@@ -7,19 +7,26 @@
   font-size: 30px;
   font-family: 'Playfair Display' serif;
   color: rgb(45, 53, 61);
-  text-align: left;
  line-height: 43.125px;
  font-weight:bold;
- padding-bottom: 20px;
+ padding-top: 80px;
+ padding-bottom: 30px;
+ position: relative;
+    left: 300px;
+ 
+
 }
 
 .p__interview_text {
     font-size: 19px;
     font-family: 'Mukta Light' serif;
     color: rgb(157, 159, 163);
-    text-align: left;
     line-height: 28.5px;
     padding-bottom: 40px;
+    padding-left: 40px;
+    position: relative;
+    left: 20px;
+    display: block;
 }
 
 .button-interview {
@@ -27,24 +34,27 @@
     color:rgb(45, 53, 61);
     background-color: #feea8b;
     font-weight: 700;
-    box-sizing: border-box;
     display: block;
     width: 200px;
     line-height: 40px;
     text-align: center;
-    
+    position: relative;
+    top: 50px;
+    left: 300px;
+
 }
 
 .button-interview:hover {
     background-color: rgb(243, 239, 189);
+    
 }
 
 .interview_rebecca {
-    width: 352px;
-height: 201.305px;
+    width: 500px;
+height: 300px;
    font-weight: 300;
    font-size: 19px;
-   text-align: center;
+   border:rgb(157, 159, 163)
 }
 
 .other_book__title {
@@ -56,8 +66,10 @@ height: 201.305px;
 }
 
 .container {
-    max-width: 960px;    
     margin: auto;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    height: 500px;
 }
 
 .rock {
@@ -75,4 +87,24 @@ height: 201.305px;
 
 .tandem {
     width: 392px;
+}
+
+.watch {
+ font-size: Mukta Light;   
+ box-sizing: border-box;
+ font-size: 19px;
+ color: rgb(235, 232, 232);
+ font-weight: 300;
+ margin-top: 20px;
+ margin-left: 50px;
+ margin-bottom: 40px;
+}
+
+.block {
+    background-color: rgba(45, 53, 61, 0.65);
+    padding-top: 50px;
+    padding-right: 40px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-right: 200px;
 }
