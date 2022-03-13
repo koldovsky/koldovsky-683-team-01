@@ -1,28 +1,24 @@
 .section__block_store {
     background-image: url(../img/background-brand.png);
-
-}
-.store__title {
-    padding-bottom: 75px;
-    padding-top: 75px;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+    min-width: 320px;
 }
 .h2__store {
-    font-family: 'Playfair Display', serif;
+    font-family: Playfair Display, serif;
     font-size: 32px;
-    font-weight: 900;
     color: #fff;
     text-align: center;
-    padding-bottom: 20px;
-    line-height: 46px;
-}
-.img__block {
-    padding: 75px 0px;
-    margin: 0 291px 0 291px;
-    padding: 0 15px 0 15px; 
+    box-sizing: border-box;
 }
 .img__amazon, .img__indi_bound, .img__barnes_noble, .img__baker_taylor {
     background-color: var(--background-color);
-    width: 359.976px;
-    height: 251.211px;
-    padding: 30px 40px;
+    background-size: auto;
+    background-attachment:scroll;
+    height: 172px;
+    width: 300px;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
 }

@@ -7,7 +7,7 @@
     text-align: center;
 }
 .h2__chapter_list {
-    font-family: 'Playfair Display', serif;
+    font-family: Playfair Display, serif;
     font-size: 32px;
     line-height: 46px;
     font-weight: 900;
@@ -16,7 +16,7 @@
 
 }
 .p__list_description {
-    font-family: 'Mukta', sans-serif;
+    font-family: Mukta, sans-serif;
     font-size: 20px;
     line-height: 20px;
     color: rgb(131, 133, 136);
@@ -29,12 +29,12 @@
     text-align: left;
 }
 .h3__chapter_1, .h3__chapter_2, .h3__chapter_3, .h3__chapter_4, .h3__chapter_5, .h3__chapter_6 {
-    font-family: 'Playfair Display', serif;
+    font-family: Playfair Display, serif;
     font-size: 24px;
     line-height: 36px;
 }
 .p__chapter_1_data, .p__chapter_2_data, .p__chapter_3_data, .p__chapter_4_data, .p__chapter_5_data, .p__chapter_6_data {
-    font-family: 'Mukta', sans-serif;
+    font-family: Mukta, sans-serif;
     font-size: 19px;
     line-height: 28.5px;
     color: rgb(131, 133, 136);
