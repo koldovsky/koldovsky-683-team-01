@@ -54,7 +54,8 @@
 height: 300px;
    font-weight: 300;
    font-size: 19px;
-   border:rgb(157, 159, 163)
+   border:rgb(157, 159, 163);
+   
 }
 
 .other_book__title {
@@ -62,7 +63,8 @@ height: 300px;
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-
+    padding-top: 60px;
+    padding-bottom: 50px;
 }
 
 .container {
@@ -73,20 +75,21 @@ height: 300px;
 }
 
 .rock {
-    width: 392px;
+    width: 280px;
 
 }
 
 .days {
-    width: 392px;
+    width: 280px;
+    
 }
 
 .survivor {
-    width:392px;
+    width: 280px;
 }
 
 .tandem {
-    width: 392px;
+    width: 280px;
 }
 
 .watch {
@@ -107,4 +110,42 @@ height: 300px;
     margin-bottom: 60px;
     margin-top: 40px;
     margin-right: 200px;
+}
+
+.books-block {
+
+    background-color: antiquewhite;
+    display: block;
+}
+
+.inline-books {
+    display: flex;
+    justify-content: space-between;
+margin-top: 30px;
+}
+
+.other_book_1 {
+margin-left: 170px;
+}
+
+.rock-text {
+    margin-left: 60px;
+    font-size: 22px;
+}
+
+.other_book_2 {
+    margin-right: 100px;
+} 
+
+.days-text {
+    font-size: 22px;
+    margin-left: 100px;
+}
+
+.other_book_3 {
+    margin-right: 100px;
+}
+
+.other_book_4 {
+    margin-right: 100px;
 }
