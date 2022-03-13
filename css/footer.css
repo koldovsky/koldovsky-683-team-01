@@ -1,12 +1,55 @@
+.footer {
+    background-color: #2d353d;
+padding-top: 40px;
+padding-bottom: 50px;
+}
+
 .footer__menu_item {
     display: block;
     color: rgb(255, 255, 255)
 }
 
-.footer {
- background-color: rgb(45, 53, 61);
+.footer_menu {
+    display: flex;
+    justify-content: space-around;
+    font-family: Mukta, sans-serif;
 }
 
+.footer__menu_item:hover {
+    color: #feea8b;
+}
+
+}
 .rights {
     color: rgb(131, 133, 136);
+}
+
+.footer_social {
+display: flex;
+margin-left: 750px;;
+padding-top: 20px;
+}
+
+.youtube {
+  width: 30px;
+}
+
+.instagram {
+    width: 30px;
+}
+
+.facebook {
+    width: 25px;
+}
+
+.youtube:hover {
+    background-color: white;
+}
+
+.instagram:hover {
+    background-color: white;
+}
+
+.facebook:hover {
+    background-color: white;
 }
