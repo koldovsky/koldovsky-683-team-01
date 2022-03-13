@@ -125,7 +125,7 @@ margin-top: 30px;
 }
 
 .other_book_1 {
-margin-left: 170px;
+margin-left: 210px;
 }
 
 .rock-text {
@@ -134,12 +134,12 @@ margin-left: 170px;
 }
 
 .other_book_2 {
-    margin-right: 100px;
+    margin-left: 80px;
 } 
 
 .days-text {
     font-size: 22px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .other_book_3 {
@@ -147,5 +147,20 @@ margin-left: 170px;
 }
 
 .other_book_4 {
-    margin-right: 100px;
+    margin-right: 300px;
+}
+
+.curvivor-text {
+    font-size: 22px;
+    margin-left: 80px;
+}
+
+.tandem-text {
+    font-size: 22px;
+    margin-left: 80px;
+
+}
+.learn {
+    color: black;
+    font-family: Mukta Light;
 }
