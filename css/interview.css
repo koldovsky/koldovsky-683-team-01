@@ -1,6 +1,5 @@
 .interview_part {
-
-    border-bottom-color: rgb(45, 53, 61);
+    
 }
 
 .h3__interview_title {
@@ -8,12 +7,11 @@
   font-family: 'Playfair Display' serif;
   color: rgb(45, 53, 61);
  line-height: 43.125px;
- font-weight:bold;
+ font-weight: bold;
  padding-top: 80px;
  padding-bottom: 30px;
  position: relative;
-    left: 300px;
- 
+    left: 250px;
 
 }
 
@@ -55,7 +53,6 @@ height: 300px;
    font-weight: 300;
    font-size: 19px;
    border:rgb(157, 159, 163);
-   
 }
 
 .other_book__title {
@@ -69,7 +66,7 @@ height: 300px;
 
 .container {
     margin: auto;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(243, 243, 243);
     display: flex;
     height: 500px;
 }
@@ -116,6 +113,7 @@ height: 300px;
 
     display: block;
     background-image: url(../img/background-books.png);
+    background-size: cover;
 }
 
 .inline-books {
@@ -214,7 +212,8 @@ margin-left: 210px;
 
 .paragraph {
     font-size: 19px;
-    color: rgb(157, 159, 163)
+    color: #9d9fa3;
+    word-spacing: 5px;
 }
 
 .input-text {
@@ -223,15 +222,16 @@ margin-left: 210px;
 
 .name {
     padding: 10px;
-    width: 300px;
+    width: 350px;
     margin-top: 20px;
     background-color: rgba(45, 53, 61, 0.12);
     font-family: Mukta;
-    font-size: 14px;
+    font-size: 14px;    
+
 }
 .phone {
     padding: 10px;
-    width: 300px;
+    width: 350px;
     margin-top: 20px;
     font-family: Mukta;
     font-size: 14px;
@@ -242,7 +242,7 @@ margin-left: 210px;
 
 .e-mail {
     padding: 10px;
-    width: 300px;
+    width: 350px;
     margin-top: 20px;
     font-family: Mukta;
     font-size: 14px;
@@ -255,12 +255,12 @@ margin-left: 210px;
     background-color: #feea8b;
     font-weight: 700;
     display: flex;
-    width: 330px;
+    width: 375px;
     line-height: 40px;
     text-align: center;
     display: block;
     margin-top: 60px;
-    margin-left: 675px;
+    margin-left: 650px;
     font-size: 14px;
 }
 
