@@ -114,8 +114,8 @@ height: 300px;
 
 .books-block {
 
-    background-color: antiquewhite;
     display: block;
+    background-image: url(../img/background-books.png);
 }
 
 .inline-books {
@@ -157,10 +157,115 @@ margin-left: 210px;
 
 .tandem-text {
     font-size: 22px;
-    margin-left: 80px;
+    margin-left: 110px;
 
 }
 .learn {
     color: black;
-    font-family: Mukta Light;
+    font-size: 14px;
+    margin-left: 100px;
+
 }
+
+.learn:hover {
+    text-decoration: underline;
+}
+.learn-1 {
+    color: black;
+    font-size: 14px;
+    margin-left: 115px;
+}
+
+.learn-1:hover {
+    text-decoration: underline;
+}
+
+.learn-2 {
+    color: black;
+    font-size: 14px;
+    margin-left: 115px;
+}
+
+.learn-2:hover {
+    text-decoration: underline;
+}
+
+.learn-4 {
+    color: black;
+    font-size: 14px;
+    margin-left: 115px;
+}
+
+.learn-4:hover {
+    text-decoration: underline;
+}
+
+.book-input {
+    background-color:rgb(236, 236, 236);
+    display: block;
+    padding-top: 200px;
+ padding-bottom: 200px;
+ text-align: center;
+}
+
+.book-title {
+    font-size: 30px;
+}
+
+.paragraph {
+    font-size: 19px;
+    color: rgb(157, 159, 163)
+}
+
+.input-text {
+    margin-top: 40px;
+}
+
+.name {
+    padding: 10px;
+    width: 300px;
+    margin-top: 20px;
+    background-color: rgba(45, 53, 61, 0.12);
+    font-family: Mukta;
+    font-size: 14px;
+}
+.phone {
+    padding: 10px;
+    width: 300px;
+    margin-top: 20px;
+    font-family: Mukta;
+    font-size: 14px;
+    background-color: rgba(45, 53, 61, 0.12);
+
+
+}
+
+.e-mail {
+    padding: 10px;
+    width: 300px;
+    margin-top: 20px;
+    font-family: Mukta;
+    font-size: 14px;
+    background-color: rgba(45, 53, 61, 0.12);
+}
+
+.bottom-book {
+    border: 5px; solid #feea8b;
+    color:rgb(45, 53, 61);
+    background-color: #feea8b;
+    font-weight: 700;
+    display: flex;
+    width: 330px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    margin-top: 60px;
+    margin-left: 675px;
+    font-size: 14px;
+}
+
+.bottom-book:hover {
+    background-color: rgb(243, 239, 189);
+}
+
+
