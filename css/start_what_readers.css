@@ -1,0 +1,6 @@
+.start_what_readers{
+    display: flex;
+justify-content: space-around;
+flex-direction: row-reverse;
+flex-wrap: wrap;
+}
