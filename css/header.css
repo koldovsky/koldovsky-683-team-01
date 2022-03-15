@@ -1,37 +1,38 @@
+@media (min-width: 600px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__nav {
+    display: flex;
+    align-items: center;
+  }
+}
 .header {
+  padding: 30px 30px;
   background-color: rgb(57, 66, 74);
   font-family: Playfair Display,serif;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-      }
-
+  
+}
 .header__rebecca_johansen {
-  padding: 35px 35px;
-  }
-h1 {
+  font-size: 100%;
   font-style: italic;
   color: #fff;
-  font-size: 35px;
 }
-.header__nav {
-  display: block;
-  
-  }
-
-.header__nav_menu_item {
-  padding: 0px 10px;
-  font-size: 25px;
+.nav__menu {
+  align-items: center;
+}
+.header_link {
+  font-size: inherit;
   color: #fff;
- }
- .header__nav_menu_item-special {
-   background: rgb(252, 178, 20);
-   padding: 10px 10px;
-   font-size: 25px;
-   color:  rgb(57, 66, 74);
- }
-
- a {
-   text-decoration: none;
- }
+  padding: 10px 16px;
+}
+.header_link-special {
+  font-size: inherit;
+  color: #2d353d;
+  background-color: #feea8b;
+  padding: 10px 16px;
+}
+a {
+  text-decoration: none;
+}

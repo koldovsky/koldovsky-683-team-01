@@ -1,106 +1,46 @@
-@media (min-width:600px) {
-.your__forgotten_minutes {
-  display: flex;
+@media (min-width: 600px) {
+  .your__forgotten_minutes {
+    display: flex;
+    justify-content: space-between;
+  }
 }
-.section__about_the_book_text{
-  display: flex;
-  vertical-align: baseline;
-}
+
+
+.your__forgotten_minutes {  
+  background-color: #2d353d;
+  }
 .text__your_forgotten_minutes {
-    background-color: #2d353d;
-    color: #fff7d0;
-    text-align: center;  
-    padding: 50px 30px;
-    
-}
-h2{
-  font-size: 35px;
-  font-weight: bold;
-  position: relative;
-  padding: 0px 0px 20px;
-  
-}
+  padding-top: 100px;
+  color: #fff7d0;
+  font: inherit;
 
 }
+.container__text_yfm {
 
-h2:before {
-  content: "";
-  position: absolute;
-  left: 35px;
-  width: 407px;
-  height: 1px;
-  background: #fff7d0;
-  bottom: 1px;
+  padding: 0px 25px;
 }
-h2:after {
-  content: "";
-  position: absolute;
-  right: 35px;
-  width: 407px;
-  height: 1px;
-  background: #fff7d0;
-  bottom: -4px;
+.container__yfm_h2 {
+  padding-top: 100px;
+  font-size: 38px;
+  font-family: Playfair Display,serif;
+  font-weight: 900;
+  text-align: center;
+  font-weight: bolder;
 }
-
 .main__h2_text {
-  margin-top: 80px;
+  padding-top: 80px;
+  text-align: center;
   color:#838588;
   font-family: 'Montserrat', sans-serif;
   font-size: inherit;
 }
+.container__text_special {
+  padding-bottom: 100px;
+}
 .button__your_forgotten_minutes {
-  padding: 40px 0px 0px;
+  text-align: center;
 }
-.button__buy_now_yfm {
-  background-color: #fff7d0;
-  padding: 5px 5px;
-  color:#838588;
-  font-family: 'Montserrat', sans-serif;
-}
-.button__read_yfm {
-  background-color: rgb(252, 178, 20);
-  padding: 5px 5px;
-  color:#838588;
-  font-family: 'Montserrat', sans-serif;
-}
-
-img {
-display: block;
-width: 100%;
-}
-
-.compelling {
-  background: #2d353d;
-  color: #fff;
+.img-book-cover {
   display: block;
-  padding-top: 85px;
-  padding-bottom: 85px;
-  padding-left: 85px;
-  border-left: 1px;
-  
-  
-  }
-.main__compeling {
-  font-family: Playfair Display,serif;
-  font-style: italic;
-  font-size: bold;
-
-}
-.main_compeling_text {
-  font-family: 'Montserrat', sans-serif;
-  padding-top: 50px;
-}
-
-.section__about_the_book {
-  text-align: center;  
-  color: #2d353d;
-  display: block;
-  padding-top: 85px;
-  padding-bottom: 85px;
-  padding-left: 85px;
-  border-left: 1px;
-
-}
-.section__about_the_book_text {
-
+  width: 100%;
 }

@@ -20,4 +20,23 @@
 .button :hover{
   background-color: white;
 }
-
+.button__your_forgotten_minutes {
+  padding: 40px 0px 0px;
+}
+.button__buy_now_yfm {
+  background-color: #feea8b;
+  padding: 14px 20px;
+  font-weight: 700;
+  color:#2d353d;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 10px 16px;
+}
+.button__read_yfm {
+  background-color: #545a5f;;
+  padding: 5px 5px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 10px 16px;
+}
