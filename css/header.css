@@ -9,6 +9,8 @@
   }
 }
 .header {
+  display: flex;
+  justify-content: space-between;
   padding: 30px 30px;
   background-color: rgb(57, 66, 74);
   font-family: Playfair Display,serif;
@@ -22,8 +24,19 @@
 .header__nav {
   align-items: center;
   background-color: rgb(57, 66, 74);
-  
-  
+
+  }
+.navbar-nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: rgb(57, 66, 74);
+
+}
+.container-fluid {
+  align-items: center;
+  background-color: rgb(57, 66, 74);
+
 }
 .header_link {
   font-size: inherit;
