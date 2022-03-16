@@ -1,0 +1,17 @@
+.section__free_chapter {
+    background-image: url(../img/bg-chapter-free.jpeg);
+    background-attachment: fixed;
+
+}
+.form__free_chapter {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 80px 0 85px 0;
+
+}
+.h2__name {
+    font-family: Mukta, sans-serif;
+    font-size: 32px;
+    color: #fff;
+}

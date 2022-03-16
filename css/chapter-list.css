@@ -31,6 +31,7 @@
 .chapter__1, .chapter__2, .chapter__3, .chapter__4, .chapter__5, .chapter__6 {
     background-color: rgb(255, 247, 208);
     text-align: left;
+    display: block;
 }
 .h3__chapter_1, .h3__chapter_2, .h3__chapter_3, .h3__chapter_4, .h3__chapter_5, .h3__chapter_6 {
     font-family: Playfair Display, serif;

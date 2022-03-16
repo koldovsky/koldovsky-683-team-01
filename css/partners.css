@@ -2,7 +2,6 @@
     background-image: url(../img/background-brand.png);
     font: inherit;
     vertical-align: baseline;
-    display: block;
     min-width: 320px;
 }
 .h2__store {
@@ -18,7 +17,9 @@
     background-attachment:scroll;
     height: 172px;
     width: 300px;
-    display: inline-block;
-    box-sizing: border-box;
+   /* box-sizing: border-box;*/
     position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
