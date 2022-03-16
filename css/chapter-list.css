@@ -1,5 +1,6 @@
 .div__chapters {
     background-image: url(../img/background-chapter-list.webp);
+    flex-wrap: wrap;
 }
 .chapter__title {
     padding-top: 0;
@@ -23,6 +24,9 @@
 }
 .chapter__blocks {
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .chapter__1, .chapter__2, .chapter__3, .chapter__4, .chapter__5, .chapter__6 {
     background-color: rgb(255, 247, 208);
