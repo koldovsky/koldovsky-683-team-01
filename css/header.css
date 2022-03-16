@@ -9,6 +9,8 @@
   }
 }
 .header {
+  display: flex;
+  justify-content: space-between;
   padding: 30px 30px;
   background-color: rgb(57, 66, 74);
   font-family: Playfair Display,serif;
@@ -25,6 +27,8 @@
 
   }
 .navbar-nav {
+  display: flex;
+  justify-content: end;
   align-items: center;
   background-color: rgb(57, 66, 74);
 
