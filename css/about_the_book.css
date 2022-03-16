@@ -1,0 +1,84 @@
+@media (min-width: 600px) {
+.about__the_book-special {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img__about_the_book {
+    object-fit: cover;
+    object-position: 48.708% 100%;
+}
+.img__emptiness {
+    box-sizing: border-box;
+}
+}
+
+.about__the_book {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    color: #2d353d;
+    
+}
+.containers__about_the_book {
+    box-sizing: border-box;
+    font-family: Playfair Display,serif;
+    font-weight: 900;
+    font-size: 32px;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    
+    
+}
+.containers__about_the_book-text {
+    
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 30px;
+    font-size: 19px;
+    line-height: 1.5;
+    font-family: Mukta,sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #9d9fa3;
+    text-transform: none;
+}
+.section__about_the_book_text {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-block;
+    font-size: 19px;
+    line-height: 1.5;
+    font-family: Mukta,sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #9d9fa3;
+    text-transform: none;
+}
+.section__about_the_book_text-special {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    display: inline-block;
+    font-size: 19px;
+    line-height: 1.5;
+    font-family: Mukta,sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #9d9fa3;
+    text-transform: none;
+}
+.button__your_forgotten_minutes {
+    padding-bottom: 30px;
+}
+.img__about_the_book {
+    padding: 15px 15px;
+}
+
+
