@@ -69,7 +69,7 @@ height: 300px;
 .other_book__title {
     font-family: Playfair Display; serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 31px;
     text-align: center;
     padding-top: 60px;
     padding-bottom: 50px;
@@ -81,6 +81,29 @@ height: 300px;
     display: flex;
     min-height: 500px;
     min-width: 2000px;
+}
+
+.rock-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 23px;
+}
+.days-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.curvivor-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.tandem-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 23px;
 }
 
 .rock {
@@ -131,12 +154,14 @@ height: 300px;
     background-image: url(../img/background-books.png);
     background-size: cover;
     padding-bottom: 80px;
+    
 }
 
 .inline-books {
     display: flex;
     justify-content: space-between;
 margin-top: 30px;
+margin-bottom: 40px;
 }
 
 .other_book_1 {
@@ -179,6 +204,7 @@ margin-left: 210px;
     color: black;
     font-size: 14px;
     margin-left: 100px;
+    font-family: 'Mukta', sans-serif;
 
 }
 
@@ -191,6 +217,7 @@ margin-left: 210px;
     color: black;
     font-size: 14px;
     margin-left: 115px;
+    font-family: 'Mukta', sans-serif;
 }
 
 .learn-1:hover {
@@ -202,6 +229,7 @@ margin-left: 210px;
     color: black;
     font-size: 14px;
     margin-left: 115px;
+    font-family: 'Mukta', sans-serif;
 }
 
 .learn-2:hover {
@@ -214,6 +242,7 @@ margin-left: 210px;
     color: black;
     font-size: 14px;
     margin-left: 115px;
+    font-family: 'Mukta', sans-serif;
 }
 
 .learn-4:hover {
