@@ -1,17 +1,14 @@
 
-
-
 .h3__interview_title {
-  font-size: 31px;
-  font-family: 'Playfair Display';
-  color: rgb(45, 53, 61);
+ font-size: 31px;
+ font-family: 'Playfair Display';
+ color: rgb(45, 53, 61);
  line-height: 43.125px;
  font-weight: 900;
  padding-top: 90px;
  padding-bottom: 30px;
-    left: 250px;
-    margin-left: 190px;
-
+ left: 250px;
+ margin-left: 190px;
 }
 
 .p__interview_text {
@@ -27,7 +24,7 @@
 
 }
 
-.button-interview {
+.button_interview {
     border: 5px; solid #feea8b;
     color:rgb(45, 53, 61);
     background-color: #feea8b;
@@ -40,15 +37,15 @@
     left: 300px;
     margin-top: 50px;
     margin-left: 190px;
-    font-family: 'Mukta', sans-serif;
-    font-size: 15px;
+    font-family: 'Playfair Display';
+    font-size: 13px;
     margin-bottom: 90px;
 
 
 
 }
 
-.button-interview:hover {
+.button_interview:hover {
     background-color: rgb(243, 239, 189);
     color: black;
     
@@ -56,7 +53,7 @@
 
 .interview_rebecca {
     width: 500px;
-height: 300px;
+    height: 300px;
    font-weight: 300;
    font-size: 19px;
    border:rgb(157, 159, 163);
@@ -80,24 +77,24 @@ height: 300px;
     min-width: 2000px;
 }
 
-.rock-text {
+.rock_text {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-size: 23px;
 }
-.days-text {
-    font-family: 'Playfair Display', serif;
-    font-weight: 500;
-    font-size: 23px;
-}
-
-.curvivor-text {
+.days_text {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-size: 23px;
 }
 
-.tandem-text {
+.curvivor_text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.tandem_text {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-size: 23px;
@@ -145,7 +142,7 @@ height: 300px;
 
 }
 
-.books-block {
+.books_block {
 
     display: block;
     background-image: url(../img/background-books.png);
@@ -154,29 +151,33 @@ height: 300px;
     
 }
 
-.inline-books {
+.inline_books {
     display: flex;
     justify-content: space-between;
-margin-top: 30px;
-margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .other_book_1 {
 margin-left: 210px;
 }
 
-.rock-text {
+.rock_text {
     margin-left: 60px;
     font-size: 22px;
+    font-family: 'Playfair Display';
+
 }
 
 .other_book_2 {
     margin-left: 80px;
 } 
 
-.days-text {
+.days_text {
     font-size: 22px;
     margin-left: 80px;
+    font-family: 'Playfair Display' serif;
+
 }
 
 .other_book_3 {
@@ -187,12 +188,12 @@ margin-left: 210px;
     margin-right: 300px;
 }
 
-.curvivor-text {
+.curvivor_text {
     font-size: 22px;
     margin-left: 80px;
 }
 
-.tandem-text {
+.tandem_text {
     font-size: 22px;
     margin-left: 110px;
 
@@ -210,45 +211,45 @@ margin-left: 210px;
     color: black;
 
 }
-.learn-1 {
+.learn_1 {
     color: black;
     font-size: 14px;
     margin-left: 115px;
     font-family: 'Mukta', sans-serif;
 }
 
-.learn-1:hover {
+.learn_1:hover {
     text-decoration: underline;
     color: black;
 }
 
-.learn-2 {
+.learn_2 {
     color: black;
     font-size: 14px;
     margin-left: 115px;
     font-family: 'Mukta', sans-serif;
 }
 
-.learn-2:hover {
+.learn_2:hover {
     text-decoration: underline;
     color: black;
 
 }
 
-.learn-4 {
+.learn_4 {
     color: black;
     font-size: 14px;
     margin-left: 115px;
     font-family: 'Mukta', sans-serif;
 }
 
-.learn-4:hover {
+.learn_4:hover {
     text-decoration: underline;
     color: black;
 
 }
 
-.book-input {
+.book_input {
     background-color: white;
     display: block;
     padding-top: 60px;
@@ -270,7 +271,7 @@ margin-bottom: 10px;
     background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(39, 61, 61, 0.5)), url(../img/background-rebecca.jpeg);
 }
 
-.book-title {
+.book_title {
     font-size: 31px;
     font-family: 'Playfair Display', serif;
     font-weight: 700;
@@ -284,7 +285,7 @@ margin-bottom: 10px;
     margin-top: 40px;
 }
 
-.input-text {
+.input_text {
     margin-top: 40px;
 }
 
@@ -322,7 +323,7 @@ margin-bottom: 10px;
 
 }
 
-.bottom-book {
+.bottom_book {
     border: 5px; solid #feea8b;
     color:rgb(45, 53, 61);
     background-color: #feea8b;
@@ -337,7 +338,7 @@ margin-bottom: 10px;
     font-size: 13px;
 }
 
-.bottom-book:hover {
+.bottom_book:hover {
     background-color: rgb(243, 239, 189);
     color: black;
 }
