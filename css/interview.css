@@ -254,8 +254,8 @@ margin-left: 210px;
 .book-input {
     background-color: white;
     display: block;
-    padding-top: 80px;
- padding-bottom: 100px;
+    padding-top: 60px;
+ padding-bottom: 60px;
  padding-left: 15px;
  text-align: center;
  margin-left: 550px;
@@ -274,13 +274,17 @@ margin-bottom: 10px;
 }
 
 .book-title {
-    font-size: 30px;
+    font-size: 31px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 
 .paragraph {
     font-size: 19px;
     color: #9d9fa3;
     word-spacing: 5px;
+    font-family: 'Mukta', sans-serif;
+    margin-top: 40px;
 }
 
 .input-text {
@@ -333,7 +337,7 @@ margin-bottom: 10px;
     display: block;
     margin-top: 60px;
     margin-left: 100px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .bottom-book:hover {
@@ -347,6 +351,7 @@ margin-bottom: 10px;
     margin-left: 100px;
     margin-right: 100px;
     border-bottom: 1px solid #feea8b;
+    font-family: 'Mukta', sans-serif;
 }
 
 span {
