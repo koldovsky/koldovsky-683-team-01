@@ -298,4 +298,20 @@ margin-bottom: 10px;
     background-color: rgb(243, 239, 189);
     color: black;
 }
+.countdown {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 1px solid #feea8b;
+}
+
+span {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Mukta bold;
+    
+}
 
