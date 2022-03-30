@@ -1,7 +1,8 @@
+(function () {
 
-let dateEnd = new Date("2022-04-15 00:00:00"),
+let dateEnd = new Date("2022-04-18 00:00:00"),
 dateNow = new Date(),
-date = Math.floor(dateEnd.getTime() - dateNow.getTime() / 1000);
+date = Math.floor((dateEnd - dateNow) / 1000);
 
 function countdown() {
 let dateLeft = date,
@@ -30,3 +31,5 @@ date--;
 setInterval(countdown, 1000);
 
 countdown();
+
+})();
