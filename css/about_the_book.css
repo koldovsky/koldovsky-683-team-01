@@ -77,8 +77,15 @@
 .button__your_forgotten_minutes {
     padding-bottom: 30px;
 }
-.img__about_the_book {
+.containers__img_about_the_bookk {
+    display: block;
+    width: fit-content;
+    object-fit: cover;
     padding: 15px 15px;
+}
+.img__about_the_book{
+    object-fit: cover;
+
 }
 
 

@@ -8,6 +8,12 @@
     align-items: center;
   }
 }
+.clock {
+  font-family: Playfair Display,serif;
+  font-size: 25px;
+  font-style: italic;
+  color: #fff;
+}
 .header {
   display: flex;
   justify-content: space-between;
