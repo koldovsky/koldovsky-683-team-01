@@ -7,8 +7,7 @@
  font-weight: 900;
  padding-top: 90px;
  padding-bottom: 30px;
- left: 250px;
- margin-left: 190px;
+ margin-left: 20px;
 }
 
 .p__interview_text {
@@ -18,9 +17,9 @@
     line-height: 28.5px;
     padding-bottom: 40px;
     padding-left: 5px;
-    left: 20px;
-    display: block;
-    margin-left: 180px;
+    margin-left: 15px;
+    display: flex;
+
 
 }
 
@@ -36,7 +35,7 @@
     top: 40px;
     left: 300px;
     margin-top: 50px;
-    margin-left: 190px;
+    margin-left: 30px;
     font-family: 'Playfair Display';
     font-size: 13px;
     margin-bottom: 90px;
@@ -52,12 +51,13 @@
 }
 
 .interview_rebecca {
-    width: 500px;
-    height: 300px;
+    width: 270px;
+    height: 170px;
    font-weight: 300;
    font-size: 19px;
    border:rgb(157, 159, 163);
    margin-left: 20px;
+
 }
 
 .other_book__title {
@@ -72,7 +72,6 @@
 .container {
     margin: auto;
     background-color: rgb(243, 243, 243);
-    display: flex;
     min-height: 500px;
     min-width: 2000px;
 }
@@ -101,21 +100,21 @@
 }
 
 .rock {
-    width: 280px;
+    width: 300px;
 
 }
 
 .days {
-    width: 280px;
+    width: 300px;
     
 }
 
 .survivor {
-    width: 280px;
+    width: 300px;
 }
 
 .tandem {
-    width: 280px;
+    width: 300px;
 }
 
 .watch {
@@ -126,18 +125,18 @@
  color: rgb(235, 232, 232);
  font-weight: 300;
  margin-top: 20px;
- margin-left: 80px;
- margin-bottom: 50px;
+ margin-left: 40px;
+ margin-bottom: 40px;
 }
 
 .block {
     background-color: rgba(45, 53, 61, 0.65);
     padding-top: 20px;
-    padding-right: 20px;
     margin-bottom: 100px;
     margin-top: 40px;
-    margin-right: 80px;
-    margin-left: 100px;
+    margin-right: 60px;
+    margin-left: 10px;
+    width: 300px;
 
 
 }
@@ -152,14 +151,11 @@
 }
 
 .inline_books {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    margin-bottom: 40px;
+  
 }
 
 .other_book_1 {
-margin-left: 210px;
+margin-left: 10px;
 }
 
 .rock_text {
@@ -170,7 +166,7 @@ margin-left: 210px;
 }
 
 .other_book_2 {
-    margin-left: 80px;
+    margin-left: 10px;
 } 
 
 .days_text {
@@ -181,11 +177,11 @@ margin-left: 210px;
 }
 
 .other_book_3 {
-    margin-right: 100px;
+    margin-left: 10px;
 }
 
 .other_book_4 {
-    margin-right: 300px;
+    margin-left: 10px;
 }
 
 .curvivor_text {
@@ -201,7 +197,7 @@ margin-left: 210px;
 .learn {
     color: black;
     font-size: 14px;
-    margin-left: 100px;
+    margin-left: 115px;
     font-family: 'Mukta', sans-serif;
 
 }
@@ -256,8 +252,8 @@ margin-left: 210px;
  padding-bottom: 60px;
  padding-left: 15px;
  text-align: center;
- margin-left: 550px;
- margin-right: 550px;
+ margin-left: 50px;
+ margin-right: 50px;
 margin-top: 10px;
 margin-bottom: 10px;
 
@@ -291,7 +287,7 @@ margin-bottom: 10px;
 
 .name {
     padding: 10px;
-    width: 350px;
+    width: 200px;
     margin-top: 20px;
     background-color: rgba(45, 53, 61, 0.12);
     font-family: Mukta;
@@ -301,7 +297,7 @@ margin-bottom: 10px;
 }
 .phone {
     padding: 10px;
-    width: 350px;
+    width: 200px;
     margin-top: 20px;
     font-family: Mukta;
     font-size: 14px;
@@ -314,7 +310,7 @@ margin-bottom: 10px;
 
 .e-mail {
     padding: 10px;
-    width: 350px;
+    width: 200px;
     margin-top: 20px;
     font-family: Mukta;
     font-size: 14px;
@@ -329,12 +325,12 @@ margin-bottom: 10px;
     background-color: #feea8b;
     font-weight: 700;
     display: flex;
-    width: 360px;
+    width: 200px;
     line-height: 40px;
     text-align: center;
     display: block;
     margin-top: 60px;
-    margin-left: 100px;
+    margin-left: 35px;
     font-size: 13px;
 }
 
@@ -344,9 +340,8 @@ margin-bottom: 10px;
 }
 .countdown {
     margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 100px;
+    justify-content: space-around;
+    margin-left: 70px;
     margin-right: 100px;
     border-bottom: 1px solid #feea8b;
     font-family: 'Mukta', sans-serif;
@@ -382,3 +377,53 @@ span {
 .footer_social {
     margin-bottom: 20px;
 }
+
+@media (min-width: 800px) and (max-width: 2000px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .block {
+        width: 550px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        height: 400px;
+    
+        }
+    .interview_rebecca {
+        width: 500px;
+    height: 300px
+    }
+}
+
+
+@media (min-width: 700px) and (max-width: 900px) {
+    .inline_books {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media (min-width: 900px) and (max-width: 2000px) {
+    .inline_books {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 2000px) {
+    .book_input  {
+        width: 600px;
+        height: 700px;
+    }
+    .countdown {
+        display: flex;
+    }
+}
+
+
+
+
+
+
