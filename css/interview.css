@@ -1,13 +1,12 @@
 
 .h3__interview_title {
- font-size: 31px;
- font-family: 'Playfair Display';
- color: rgb(45, 53, 61);
- line-height: 43.125px;
- font-weight: 900;
- padding-top: 90px;
- padding-bottom: 30px;
- margin-left: 20px;
+    font-size: 31px;
+    font-family: 'Playfair Display';
+    color: rgb(45, 53, 61);
+    line-height: 43.125px;
+    font-weight: 900;
+    padding-top: 90px;
+    padding-bottom: 30px;
 }
 
 .p__interview_text {
@@ -16,29 +15,25 @@
     color: rgb(157, 159, 163);
     line-height: 28.5px;
     padding-bottom: 40px;
-    padding-left: 5px;
-    margin-left: 15px;
     display: flex;
+}
 
+.interview_part {
+    padding-left: 30px;
+    display: block;
 
 }
 
 .button_interview {
-    border: 5px; solid #feea8b;
-    color:rgb(45, 53, 61);
+    border: 5px;
+    color: rgb(45, 53, 61);
     background-color: #feea8b;
     font-weight: 700;
     display: block;
-    width: 155px;
+    width: 200px;
     line-height: 40px;
     text-align: center;
-    top: 40px;
-    left: 300px;
-    margin-top: 50px;
-    margin-left: 30px;
-    font-family: 'Playfair Display';
-    font-size: 13px;
-    margin-bottom: 90px;
+
 
 
 
@@ -51,12 +46,12 @@
 }
 
 .interview_rebecca {
-    width: 270px;
-    height: 170px;
-   font-weight: 300;
-   font-size: 19px;
-   border:rgb(157, 159, 163);
-   margin-left: 20px;
+    font-weight: 300;
+    font-size: 19px;
+    border: rgb(157, 159, 163);
+    display: inline-block;
+    vertical-align: middle;
+
 
 }
 
@@ -73,13 +68,13 @@
     margin: auto;
     background-color: rgb(243, 243, 243);
     min-height: 500px;
-    min-width: 2000px;
 }
 
 .rock_text {
-    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-family: 'Playfair Display';
     font-weight: 500;
-    font-size: 23px;
+
 }
 .days_text {
     font-family: 'Playfair Display', serif;
@@ -87,10 +82,11 @@
     font-size: 23px;
 }
 
-.curvivor_text {
+.survivor_text {
+    font-size: 22px;
     font-family: 'Playfair Display', serif;
     font-weight: 500;
-    font-size: 23px;
+
 }
 
 .tandem_text {
@@ -101,42 +97,48 @@
 
 .rock {
     width: 300px;
+    display: inline-block;
+    vertical-align: middle;
 
 }
 
 .days {
     width: 300px;
+    display: inline-block;
+    vertical-align: middle;
     
 }
 
 .survivor {
     width: 300px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .tandem {
     width: 300px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .watch {
- font-family: 'Mukta', sans-serif;
- font-size: 19px;
- box-sizing: border-box;
- font-size: 19px;
- color: rgb(235, 232, 232);
- font-weight: 300;
- margin-top: 20px;
- margin-left: 40px;
- margin-bottom: 40px;
+    font-family: 'Mukta', sans-serif;
+    box-sizing: border-box;
+    font-size: 19px;
+    color: rgb(235, 232, 232);
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .block {
+    display: flex;
+    flex-direction: column;
     background-color: rgba(45, 53, 61, 0.65);
-    padding-top: 20px;
     margin-bottom: 100px;
     margin-top: 40px;
     margin-right: 60px;
     margin-left: 10px;
-    width: 300px;
 
 
 }
@@ -150,12 +152,12 @@
     
 }
 
-.inline_books {
-  
-}
 
-.other_book_1 {
-margin-left: 10px;
+
+.other_book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .rock_text {
@@ -166,22 +168,31 @@ margin-left: 10px;
 }
 
 .other_book_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-left: 10px;
 } 
 
 .days_text {
     font-size: 22px;
-    margin-left: 80px;
     font-family: 'Playfair Display' serif;
+    font-weight: 500;
 
 }
 
 .other_book_3 {
     margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .other_book_4 {
     margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .curvivor_text {
@@ -191,13 +202,13 @@ margin-left: 10px;
 
 .tandem_text {
     font-size: 22px;
-    margin-left: 110px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
 
 }
 .learn {
     color: black;
     font-size: 14px;
-    margin-left: 115px;
     font-family: 'Mukta', sans-serif;
 
 }
@@ -210,7 +221,6 @@ margin-left: 10px;
 .learn_1 {
     color: black;
     font-size: 14px;
-    margin-left: 115px;
     font-family: 'Mukta', sans-serif;
 }
 
@@ -222,7 +232,6 @@ margin-left: 10px;
 .learn_2 {
     color: black;
     font-size: 14px;
-    margin-left: 115px;
     font-family: 'Mukta', sans-serif;
 }
 
@@ -235,7 +244,6 @@ margin-left: 10px;
 .learn_4 {
     color: black;
     font-size: 14px;
-    margin-left: 115px;
     font-family: 'Mukta', sans-serif;
 }
 
@@ -248,14 +256,12 @@ margin-left: 10px;
 .book_input {
     background-color: white;
     display: block;
-    padding-top: 60px;
- padding-bottom: 60px;
- padding-left: 15px;
- text-align: center;
- margin-left: 50px;
- margin-right: 50px;
-margin-top: 10px;
-margin-bottom: 10px;
+    padding: 60px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -282,13 +288,18 @@ margin-bottom: 10px;
 }
 
 .input_text {
-    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.form_field {
+    margin: 10px 0px;
 }
 
 .name {
     padding: 10px;
-    width: 200px;
-    margin-top: 20px;
     background-color: rgba(45, 53, 61, 0.12);
     font-family: Mukta;
     font-size: 14px;    
@@ -297,21 +308,14 @@ margin-bottom: 10px;
 }
 .phone {
     padding: 10px;
-    width: 200px;
-    margin-top: 20px;
     font-family: Mukta;
     font-size: 14px;
     background-color: rgba(45, 53, 61, 0.12);
     border: none;
-
-
-
 }
 
 .e-mail {
     padding: 10px;
-    width: 200px;
-    margin-top: 20px;
     font-family: Mukta;
     font-size: 14px;
     background-color: rgba(45, 53, 61, 0.12);
@@ -320,17 +324,13 @@ margin-bottom: 10px;
 }
 
 .bottom_book {
-    border: 5px; solid #feea8b;
-    color:rgb(45, 53, 61);
+    border: 5px;
+    color: rgb(45, 53, 61);
     background-color: #feea8b;
     font-weight: 700;
-    display: flex;
-    width: 200px;
     line-height: 40px;
-    text-align: center;
     display: block;
-    margin-top: 60px;
-    margin-left: 35px;
+    margin: 16px 0px;
     font-size: 13px;
 }
 
@@ -341,9 +341,6 @@ margin-bottom: 10px;
 .countdown {
     margin-top: 50px;
     justify-content: space-around;
-    margin-left: 70px;
-    margin-right: 100px;
-    border-bottom: 1px solid #feea8b;
     font-family: 'Mukta', sans-serif;
 }
 
@@ -413,10 +410,7 @@ span {
 }
 
 @media (min-width: 800px) and (max-width: 2000px) {
-    .book_input  {
-        width: 600px;
-        height: 700px;
-    }
+  
     .countdown {
         display: flex;
     }
