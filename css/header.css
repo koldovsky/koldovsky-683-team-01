@@ -23,7 +23,14 @@
     background-color: rgb(57, 66, 74);
     font-family: Playfair Display, serif;
 }
-
+.clock {
+    font-family: Playfair Display, serif;
+    
+    font-style: italic;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
 .header__rebecca_johansen {
     font-size: 100%;
     font-style: italic;
