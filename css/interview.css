@@ -16,11 +16,12 @@
     line-height: 28.5px;
     padding-bottom: 40px;
     display: flex;
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 .interview_part {
     padding-left: 30px;
-    display: block;
 
 }
 
@@ -51,6 +52,7 @@
     border: rgb(157, 159, 163);
     display: inline-block;
     vertical-align: middle;
+    padding: 20px;
 
 
 }
@@ -68,6 +70,7 @@
     margin: auto;
     background-color: rgb(243, 243, 243);
     min-height: 500px;
+  
 }
 
 .rock_text {
@@ -161,9 +164,9 @@
 }
 
 .rock_text {
-    margin-left: 60px;
     font-size: 22px;
     font-family: 'Playfair Display';
+    font-weight: 500;
 
 }
 
@@ -342,6 +345,11 @@
     margin-top: 50px;
     justify-content: space-around;
     font-family: 'Mukta', sans-serif;
+}
+
+.border_countdown {
+    border-bottom: solid 1px #feea8b;
+    height: 10px;
 }
 
 span {
