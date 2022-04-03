@@ -31,22 +31,27 @@ padding-bottom: 40px;
 
 .rights {
     color: #9ea0a3;
+    font-family: Mukta, sans-serif;
+    font-family: 13px;
+
+
     
    
 }
 
 .created {
     color: rgb(131, 133, 136);
-    font-family: 12px;
+    font-family: 13px;
     text-align: center;
-    margin: 16px 0;
 
 }
 
 .all {
     color: rgb(131, 133, 136);
-    font-family: 12px;
+    font-family: 13px;
     text-align: center;
+    font-weight: bold;
+    font-family: 'Mukta', sans-serif;
 
 
 }
@@ -86,19 +91,31 @@ padding-bottom: 40px;
     background-color: white;
 }
 
-@media (min-width: 1000px) and (max-width: 2000px) {
-    .footer_menu {
-        display: flex;
-        justify-content: space-around;
-    }
+@media (min-width: 1000px) {
+
     .rights {
-        display: grid;
-        grid-template-columns: 60% 10%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 20px;
+
     }
     .footer_social {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+
 
 
     }
 }
+
+@media (min-width: 1000px) {
+    .footer_menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 50px;
+        margin-bottom: 30px;
+}
+}
+

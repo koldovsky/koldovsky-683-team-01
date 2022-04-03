@@ -410,6 +410,7 @@ span {
     
 }
 
+
 @media (min-width: 900px) and (max-width: 2000px) {
     .inline_books {
         display: grid;
@@ -424,7 +425,52 @@ span {
     }
 }
 
+@media (min-width: 770px) and (max-width: 1200px) {
+    .book_input {
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
 
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .book_input {
+        margin-left: 350px;
+        margin-right: 350px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 1400px) and (max-width: 1600px) {
+    .book_input {
+        margin-left: 400px;
+        margin-right: 400px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (min-width: 1600px) and (max-width: 1800px) {
+    .book_input {
+        margin-left: 550px;
+        margin-right: 550px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/*
+@media (min-width: 950px) {
+    .book_input {
+        width: 40%;
+        
+    }
+}
+*/
 
 
 
