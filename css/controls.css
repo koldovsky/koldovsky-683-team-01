@@ -32,6 +32,9 @@
   text-align: center;
   padding: 10px 16px;
 }
+.button__buy_now_yfm:hover {
+  color:#2d353d;
+}
 .button__read_yfm {
   background-color: #545a5f;;
   padding: 5px 5px;
@@ -39,4 +42,7 @@
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 10px 16px;
+}
+.button__read_yfm:hover {
+  color: #fff7d0;
 }
