@@ -1,64 +1,51 @@
 @media (min-width: 600px) {
-  .header {
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-nav {
+        display: flex;
+        align-items: center;   
+        justify-content: center;     
+    }
+
+    .container-fluid {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.header {
     display: flex;
     justify-content: space-between;
-  }
-  .header__nav {
-    display: flex;
-    align-items: center;
-  }
+    padding: 30px 30px;
+    background-color: rgb(57, 66, 74);
+    font-family: Playfair Display, serif;
 }
-.clock {
-  font-family: Playfair Display,serif;
-  font-size: 25px;
-  font-style: italic;
-  color: #fff;
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 30px 30px;
-  background-color: rgb(57, 66, 74);
-  font-family: Playfair Display,serif;
-  
-}
+
 .header__rebecca_johansen {
-  font-size: 100%;
-  font-style: italic;
-  color: #fff;
+    font-size: 100%;
+    font-style: italic;
+    color: #fff;
 }
-.header__nav {
-  align-items: center;
-  background-color: rgb(57, 66, 74);
 
-  }
-.navbar-nav {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  background-color: rgb(57, 66, 74);
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
 }
-.container-fluid {
-  align-items: center;
-  background-color: rgb(57, 66, 74);
 
+.nav_menu_item-special {
+    background-color: #feea8b;
+    color: rgb(57, 66, 74);
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    border-width: 1px;
 }
-.header_link {
-  font-size: inherit;
-  color: #fff;
-  padding: 10px 16px;
-  margin: auto;
-}
+
 .nav_menu_item-special:hover {
-  color: #feea8b;
+    color: rgb(57, 66, 74);
 }
-.header_link-special {
-  font-size: inherit;
-  color: #2d353d;
-  background-color: #feea8b;
-  padding: 10px 16px;
-}
-a {
-  text-decoration: none;
-  }

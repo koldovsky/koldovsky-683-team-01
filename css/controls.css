@@ -46,3 +46,7 @@
 .button__read_yfm:hover {
   color: #fff7d0;
 }
+
+a {
+  text-decoration: none;
+}
