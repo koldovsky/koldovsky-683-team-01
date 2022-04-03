@@ -48,6 +48,10 @@
   font-size: inherit;
   color: #fff;
   padding: 10px 16px;
+  margin: auto;
+}
+.nav_menu_item-special:hover {
+  color: #feea8b;
 }
 .header_link-special {
   font-size: inherit;
@@ -57,5 +61,4 @@
 }
 a {
   text-decoration: none;
-  
-}
+  }
