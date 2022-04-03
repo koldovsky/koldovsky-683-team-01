@@ -1,6 +1,6 @@
 .footer {
     background-color: #2d353d;
-padding-top: 150px;
+padding-top: 100px;
 padding-bottom: 40px;
 }
 
@@ -79,17 +79,7 @@ padding-bottom: 40px;
     border-radius: 50%;
 }
 
-.youtube:hover {
-    background-color: white;
-}
 
-.instagram:hover {
-    background-color: white;
-}
-
-.facebook:hover {
-    background-color: white;
-}
 
 @media (min-width: 1000px) {
 
