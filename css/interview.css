@@ -379,6 +379,18 @@ span {
     
 }
 
+.form {
+
+justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: stretch;
+}
+
+.form_field.error {
+    border: 3px solid red;
+}
+
 .created {
     font-family: 'Mukta', sans-serif;
     font-size: 12px;
