@@ -387,7 +387,7 @@ flex-direction: column;
 align-items: stretch;
 }
 
-.form_field.error {
+.form_field. error {
     border: 3px solid red;
 }
 
@@ -414,7 +414,7 @@ align-items: stretch;
     margin-bottom: 20px;
 }
 
-@media (min-width: 800px) and (max-width: 2000px) {
+@media (min-width: 900px) and (max-width: 2000px) {
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -424,11 +424,15 @@ align-items: stretch;
         padding-top: 20px;
         padding-bottom: 10px;
         height: 400px;
-    
+        padding-left: 20px;
+
         }
+
+
     .interview_rebecca {
         width: 500px;
-    height: 300px
+    height: 350px
+    
     }
 }
 
@@ -447,7 +451,9 @@ align-items: stretch;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+    
 }
+
 
 @media (min-width: 800px) and (max-width: 2000px) {
   
