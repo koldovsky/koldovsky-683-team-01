@@ -57,6 +57,22 @@
 
 }
 
+.button_get {
+    border: 5px;
+    color: rgb(45, 53, 61);
+    background-color: #feea8b;
+    font-weight: 700;
+    line-height: 40px;
+    display: block;
+    margin: 16px 0px;
+    font-size: 13px;
+}
+
+.button_get:hover {
+    background-color:  rgb(243, 239, 189);
+    color: black;
+}
+
 .button_interview:hover {
     background-color: rgb(243, 239, 189);
     color: black;
@@ -386,7 +402,8 @@ align-items: stretch;
 }
 
 .form_field.error {
-    border: 3px solid red;
+    border: 1.5px solid rgb(213, 116, 116);
+    box-shadow: 2px 1px 1px rgb(213, 116, 116);
 }
 
 .created {
