@@ -1,11 +1,8 @@
 .footer {
     background-color: #2d353d;
-padding-top: 100px;
-padding-bottom: 40px;
+    padding-top: 100px;
+    padding-bottom: 40px;
 }
-
-
-
 
 .footer__menu_item {
     display: block;
@@ -20,30 +17,22 @@ padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     gap: 24px;
-
-
 }
 
 .footer__menu_item:hover {
     color: #feea8b;
 }
 
-
 .rights {
     color: #9ea0a3;
     font-family: Mukta, sans-serif;
     font-size: 14px;
-
-
-    
-   
 }
 
 .created {
     color: rgb(131, 133, 136);
     font-size: 14px;
     text-align: center;
-
 }
 
 .all {
@@ -52,8 +41,6 @@ padding-bottom: 40px;
     text-align: center;
     font-weight: bold;
     font-family: 'Mukta', sans-serif;
-
-
 }
 
 .footer_social {
@@ -64,12 +51,12 @@ padding-bottom: 40px;
 }
 
 .youtube {
-  width: 30px;
+    width: 30px;
 }
 
 .instagram {
     width: 30px;
-    border:rgb(22, 22, 22) solid;
+    border: rgb(22, 22, 22) solid;
     border-radius: 50%;
 }
 
@@ -79,23 +66,17 @@ padding-bottom: 40px;
     border-color: #2d353d;
 }
 
-
-
 @media (min-width: 1000px) {
-
     .rights {
         display: flex;
         justify-content: center;
         flex-direction: row;
         gap: 20px;
-
     }
+
     .footer_social {
         display: flex;
         justify-content: center;
-
-
-
     }
 }
 
@@ -106,6 +87,5 @@ padding-bottom: 40px;
         flex-direction: row;
         gap: 50px;
         margin-bottom: 30px;
+    }
 }
-}
-

@@ -3,7 +3,7 @@ let form = document.getElementById('form');
 
 // Event listeners
 form.addEventListener('submit', function(e) {
-  e.preventDefault();
+    e.preventDefault();
     checkIfNameEmpty()
 });
 
@@ -14,3 +14,4 @@ function checkIfNameEmpty() {
         username.className = "form_field name"
     }
 }
+
