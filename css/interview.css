@@ -449,10 +449,16 @@ align-items: stretch;
 @media (min-width: 900px) and (max-width: 2000px) {
     .inline_books {
         display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 1200px) and (max-width: 2000px) {
+    .inline_books {
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-    
 }
+
 
 
 @media (min-width: 800px) and (max-width: 2000px) {
