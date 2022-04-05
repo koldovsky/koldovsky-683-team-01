@@ -32,7 +32,7 @@ padding-bottom: 40px;
 .rights {
     color: #9ea0a3;
     font-family: Mukta, sans-serif;
-    font-family: 13px;
+    font-size: 14px;
 
 
     
@@ -41,14 +41,14 @@ padding-bottom: 40px;
 
 .created {
     color: rgb(131, 133, 136);
-    font-family: 13px;
+    font-size: 14px;
     text-align: center;
 
 }
 
 .all {
     color: rgb(131, 133, 136);
-    font-family: 13px;
+    font-size: 14px;
     text-align: center;
     font-weight: bold;
     font-family: 'Mukta', sans-serif;
@@ -58,7 +58,7 @@ padding-bottom: 40px;
 
 .footer_social {
     display: flex;
-    gap: 8px;
+    gap: 10px;
     justify-content: center;
     margin-bottom: 20px;
 }
@@ -75,8 +75,8 @@ padding-bottom: 40px;
 
 .facebook {
     width: 25px;
-    border:rgb(22, 22, 22) solid;
-    border-radius: 50%;
+    padding-bottom: -30px;
+    border-color: #2d353d;
 }
 
 

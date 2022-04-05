@@ -54,6 +54,7 @@
     text-align: center;
     font-size: 14px;
     margin-top: 50px;
+    box-shadow: 8px 5px 5px grey;
 
 }
 
@@ -66,6 +67,8 @@
     display: block;
     margin: 16px 0px;
     font-size: 13px;
+    box-shadow: 5px 5px 5px grey;
+
 }
 
 .button_get:hover {
@@ -341,6 +344,7 @@
     font-size: 14px;    
     border: none;
 
+
 }
 .phone {
     padding: 10px;
@@ -356,6 +360,7 @@
     font-size: 14px;
     background-color: rgba(45, 53, 61, 0.12);
     border: none;
+
 
 }
 
@@ -381,7 +386,7 @@
 }
 
 .border_countdown {
-    border-bottom: solid 1px #feea8b;
+    border-bottom: solid 1.5px #feea8b;
     height: 10px;
 }
 
