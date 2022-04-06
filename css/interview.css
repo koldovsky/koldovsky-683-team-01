@@ -378,7 +378,6 @@ span {
 
 .form_field.error {
     border: 1.5px solid rgb(213, 116, 116);
-    box-shadow: 2px 1px 1px rgb(213, 116, 116);
 }
 
 .created {
