@@ -1,0 +1,97 @@
+@media (min-width: 600px) {
+    .about__the_author-special {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .img__about_the_author {
+        object-fit: cover;
+        object-position: 48.708% 100%;
+    }
+    .img__foto {
+        box-sizing: border-box;
+    }
+    }
+    
+    .about-the-author-special {
+    
+    }
+    
+    .about__the_author {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 30px;
+        color: #2d353d;
+        
+    }
+    .containers__about_the_author {
+        box-sizing: border-box;
+        font-family: Playfair Display,serif;
+        font-weight: 900;
+        font-size: 32px;
+        text-transform: none;
+        text-decoration: none;
+        font-style: normal;
+        
+        
+    }
+    .containers__about_the_author-text {
+        
+        display: inline-block;
+        padding-top: 15px;
+        padding-right: 30px;
+        font-size: 19px;
+        line-height: 1.5;
+        font-family: Mukta,sans-serif;
+        font-weight: 300;
+        text-decoration: none;
+        font-style: normal;
+        letter-spacing: 0;
+        color: #9d9fa3;
+        text-transform: none;
+    }
+    .section__about_the_author_text {
+        padding-left: 30px;
+        padding-right: 30px;
+        display: inline-block;
+        font-size: 19px;
+        line-height: 1.5;
+        font-family: Mukta,sans-serif;
+        font-weight: 300;
+        text-decoration: none;
+        font-style: normal;
+        letter-spacing: 0;
+        color: #9d9fa3;
+        text-transform: none;
+    }
+    .section__about_the_author_text-special {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        display: inline-block;
+        font-size: 19px;
+        line-height: 1.5;
+        font-family: Mukta,sans-serif;
+        font-weight: 300;
+        text-decoration: none;
+        font-style: normal;
+        letter-spacing: 0;
+        color: #9d9fa3;
+        text-transform: none;
+    }
+    .button__facebook {
+        padding-bottom: 30px;
+    }
+    .button__twitter {
+        padding-bottom: 30px;
+    }
+    .button__youtube {
+        padding-bottom: 30px;
+    }
+    .containers__img_about_the_author {
+        display: block;
+        padding: 15px 15px;
+    
+    }
+    .img__about_the_author {
+    
+    }
