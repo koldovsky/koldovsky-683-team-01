@@ -1,6 +1,9 @@
-.what-readers-are-saying{margin-top: 30px;
-    margin-bottom: 30px;
-    padding-left: 30px;
-    width: 100px;
+.what-readers-are-saying{
+    min-width: 200px;
+    margin-top: 30px;
+    padding-left: 440px;
+    padding-right: 600px;
+    width: 1700px;
+    
 
 }

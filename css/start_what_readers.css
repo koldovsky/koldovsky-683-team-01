@@ -1,6 +1,8 @@
 .start_what_readers{
+    margin: top 20px; ;
     display: flex;
 justify-content: space-around;
 flex-direction: row-reverse;
 flex-wrap: wrap;
+padding: auto;
 }

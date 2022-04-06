@@ -1,4 +1,5 @@
-.bonus_materials_text{
+.bonus_materials_text{ text-align: center;
     display: block;
-    color: black
+    color: white;
+    background-color: black;
 }
