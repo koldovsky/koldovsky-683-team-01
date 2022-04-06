@@ -46,7 +46,7 @@
         text-decoration: none;
         font-style: normal;
         letter-spacing: 0;
-        color: #9d9fa3;
+        color: black;
         text-transform: none;
     }
     .section__about_the_author_text {
@@ -60,7 +60,7 @@
         text-decoration: none;
         font-style: normal;
         letter-spacing: 0;
-        color: #9d9fa3;
+        color: black;
         text-transform: none;
     }
     .section__about_the_author_text-special {
@@ -75,7 +75,7 @@
         text-decoration: none;
         font-style: normal;
         letter-spacing: 0;
-        color: #9d9fa3;
+        color: black;
         text-transform: none;
     }
     .button__facebook {
@@ -93,5 +93,6 @@
     
     }
     .img__about_the_author {
+        width: 50px ;
     
     }
