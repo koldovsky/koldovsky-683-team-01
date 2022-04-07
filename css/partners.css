@@ -3,6 +3,8 @@
     font: inherit;
     vertical-align: baseline;
     min-width: 320px;
+    padding: 75px 0 75px 0;
+    
 }
 .h2__store {
     font-family: Playfair Display, serif;
