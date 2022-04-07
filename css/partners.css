@@ -13,13 +13,16 @@
 }
 .img__amazon, .img__indi_bound, .img__barnes_noble, .img__baker_taylor {
     background-color: var(--background-color);
-    background-size: auto;
+    background-size: cover;
     background-attachment:scroll;
     height: 172px;
     width: 300px;
-   /* box-sizing: border-box;*/
+    box-sizing: border-box;
     position: relative;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
 }

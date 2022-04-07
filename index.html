@@ -135,13 +135,46 @@
             <div class="store__title">
                 <h2 class="h2__store">Buy from</h2>
             </div>
-            <div class="img__block">
-                <img src="img/amazon.png" alt="Amazon" class="img__amazon">
-                <img src="img/indi-bound.png" alt="Indi Bound" class="img__indi_bound">
-                <img src="img/barnes-noble.png" alt="Barnes Noble" class="img__barnes_noble">
-                <img src="img/baker-taylor.png" alt="Baker Taylor" class="img__baker_taylor">
-            </div>
+            <div id="partners-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#partners-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#partners-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#partners-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#partners-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/amazon.png" class="d-block w-25 mx-auto, img__amazon" alt="Amazon">
+                    <div class="carousel-caption d-none d-md-block">
+                      </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/indi-bound.png" class="d-block w-25 mx-auto, img__indi_bound" alt="Indi Bound">
+                    <div class="carousel-caption d-none d-md-block">
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/barnes-noble.png" class="d-block w-25 mx-auto, img__barnes_noble" alt="Barnes Noble">
+                    <div class="carousel-caption d-none d-md-block">
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/baker-taylor.png" class="d-block w-25 mx-auto, img__baker_taylor" alt="Baker Taylor">
+                    <div class="carousel-caption d-none d-md-block">
+                      </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#partners-carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#partners-carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden"></span>
+                </button>
+              </div>
         </section>
+        
         <div id="div__chapters" class="div__chapters">
             <div class="chapter__title">
                 <h2 class="h2__chapter_list">Full Chapter List</h2>
@@ -457,7 +490,6 @@
     <script src="js/countdown.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/form-validator.js"></script>
-
 </body>
 
 </html>
